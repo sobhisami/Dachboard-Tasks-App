@@ -35,6 +35,7 @@ const Tasks = () => {
         )
         let filterData=filter.filter(e=> e.id!=id)
         setFilter(filterData);
+        context.setData(filterData);
       }
     })
   }
